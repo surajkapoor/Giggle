@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"d25814a1dc","applicationID":"957280","transactionName":"cw5dRUtfVVwGEBtBUlcEQB4RX01YBhAd","queueTime":8,"applicationTime":10,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-346.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
+<title>Hacker School</title>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link href="https://www.hackerschool.com/blog.rss" rel="alternate" title="Hacker School Blog" type="application/rss+xml" />
+<link href="/assets/zurb-ad0fece12aab77a68fce58081b613526.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="/assets/ie-932109afa3eab14cc83c8dbc06d8cace.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+<![endif]-->
+<script src="/assets/public-560e045c8bccc9f27364117660eda94e.js" type="text/javascript"></script>
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="QYl9zzqqrbOhRRbKve3Q4P3qf4+5EZyg+e8QFcd8g7JgdY1Om5Z78B5Q+XkTUEdlXDMPVcJz1ZYvm2Uzd13i5Q==" name="csrf-token" />
+</head>
+<body>
+<nav class='top-bar' data-topbar>
+<ul class='title-area'>
+<li class='toggle-topbar menu-icon'>
+<a href='#'></a>
+</li>
+<li class='name' id='logo'>
+<a href="/"><strong>Hacker</strong> School
+</a></li>
+</ul>
+<section class='top-bar-section' id='navigation'>
+<ul class='right'>
+<li>
+<a href="/about">About</a></li>
+<li>
+<a href="/residents">Residents</a></li>
+<li>
+<a href="/faq">FAQ</a></li>
+<li>
+<a href="/manual">Manual</a></li>
+<li>
+<a href="/blog">Blog</a></li>
+<li class='has-form'><a href="/apply?r=topnav" class="small button">Apply</a></li>
+<li class='last'>
+<a href="/login">Log in</a></li>
+</ul>
+</section>
+</nav>
+<div class='row'>
+<div class='center'><img alt="Logo-no-text" src="/assets/logo-no-text-d8ed16eddb595505005e8a9c69eb6011.png" /></div>
+<div id='error-state'>
+</div>
+<div class='wide-layout' id='content'>
+<div id='callout'>
+<h1>Hacker School is a writers&rsquo; retreat for programmers.</h1>
+<p>
+Want to spend three months coding and learning in New York with smart, friendly, and intellectually curious people? <a href="/about">Read on</a>.
+</p>
+</div>
+<div id='banner'>
+<p>New blog post: <a href="/blog/33-summer-and-fall-2014-applications-are-open">Summer and fall 2014 applications are open</a></p>
+</div>
+<div id='tenets'>
+<h2>Hacker School is...</h2>
+<ul>
+<li>
+<h3>Self-directed</h3>
+<p>We value intrinsic motivation and self-direction, and believe people learn best when they're free to explore their passions and interests.</p>
+</li>
+<li>
+<h3>Accessible</h3>
+<p><strong>We're free for all students.</strong> We also offer $5,000 need-based grants for living expenses for female programmers.</p>
+</li>
+<li>
+<h3>Stimulating</h3>
+<p>We look for smart, friendly, self-directed, and intellectually curious people who enjoy programming and want to get dramatically better.</p>
+</li>
+<li>
+<h3>Exceptional</h3>
+<p>We have exceptional residents including Peter Norvig, Jessica McKellar, Yaron Minsky, David Nolen, Peter Seibel, Nada Amin, and more.</p>
+</li>
+<li>
+<h3>Thoughtful</h3>
+<p>The atmosphere here is friendly and intellectual. We have <strong>a gender-balanced environment</strong>, and lightweight social rules.</p>
+</li>
+<li>
+<h3>Supportive</h3>
+<p>We have a tight-knit community of nearly <strong>300 alumni across 24 countries.</strong> Our motto is "never graduate."</p>
+</li>
+<li>
+<h3>Project-based</h3>
+<p>Hacker Schoolers have made significant contributions to dozens of open source projects and started many of their own.</p>
+</li>
+<li>
+<h3>Connected</h3>
+<p>We make money by helping great companies hire our alumni. There's no obligation to take a job if you don't want one.</p>
+</li>
+</ul>
+</div>
+<form action='http://linkedlistnyc.us2.list-manage.com/subscribe/post?u=193b767bbb3b0eb0d949d5924&amp;id=c8d3ac8bbf' method='post' name='mc-embedded-subscribe-form' target='_blank'>
+<div class='email-signup'>
+<input class='text' id='mce-EMAIL' name='EMAIL' placeholder='Email' type='email'>
+</div>
+<div id='subscribe'>
+<input class='button prefix' name='subscribe' type='submit' value='Subscribe'>
+</div>
+</form>
+
+<div id='instagram'>
+<ul>
+<li><img alt="Instagram_14" src="/assets/instagram_14-7868423e4a01c24d600c9eeade19ea1b.jpg" /></li>
+<li><img alt="Instagram_02" src="/assets/instagram_02-51fad7e9c3ba08cb4226a9de9a9b7cb9.jpg" /></li>
+<li><img alt="Instagram_16" src="/assets/instagram_16-0866537b2083d23308a709ea41acad19.jpg" /></li>
+<li><img alt="Instagram_22" src="/assets/instagram_22-59cd6970eab6ef3b4fbccb5ad1bca44f.jpg" /></li>
+<li><img alt="Instagram_17" src="/assets/instagram_17-586670b3f008e6d5283b56c176ddad92.jpg" /></li>
+<li><img alt="Instagram_06" src="/assets/instagram_06-d89b70b94f18065d8bd490554ff78d6c.jpg" /></li>
+<li><img alt="Instagram_08" src="/assets/instagram_08-dedf46d284a96764e5cb1ac5c072bc86.jpg" /></li>
+<li><img alt="Instagram_20" src="/assets/instagram_20-ff533f619a73511d0278986112bce88f.jpg" /></li>
+</ul>
+</div>
+<div id='sponsors'>
+<h2>Fall 2013 grant sponsors:</h2>
+<hr>
+<ul>
+<li><a href="https://www.dropbox.com"><img alt="Sponsor-dropbox" src="/assets/sponsor-dropbox-c52d0421afbcb91b24966cba5af701c0.png" /></a></li>
+<li><a href="https://www.etsy.com"><img alt="Etsy_w110" src="/assets/companies/etsy_w110-e87f3f46080defb868700f995168f281.png" /></a></li>
+<li><a href="http://www.janestreet.com"><img alt="Jane_street_w110" src="/assets/companies/jane_street_w110-178ead745628886d47d2e647ef8853a9.png" /></a></li>
+<li><a href="http://www.tapad.com"><img alt="Tapad_w110" src="/assets/companies/tapad_w110-c3086c7be54e75f22bf8c33d7863e1db.png" /></a></li>
+<li><a href="https://www.tumblr.com"><img alt="Tumblr_w110" src="/assets/companies/tumblr_w110-01cd77840ed4614262917ccbeb716df3.png" /></a></li>
+</ul>
+</div>
+<div id='testimonials'>
+<h2>Testimonials</h2>
+<hr>
+<blockquote>
+<img alt="Oskar_thoren_75" src="/assets/people/oskar_thoren_75-c862449c1ce6f083ca76b85d3fb4a0ae.jpg" />
+<strong>Go. That's my one word summary of Hacker School.</strong> If you like programming and problem solving there are few places you could go and learn as much in such a short period of time. Three months of freeform learning with a diverse group of smart and curious people and just the right amount of social pressure to finish projects you start.
+<div class='testimonial-name'>— Oskar, Summer 2012 | Stockholm, Sweden</div>
+</blockquote>
+<blockquote>
+<img alt="Danielle_e_sucher_75" src="/assets/people/danielle_e_sucher_75-3924b5650b5931ce5dafb1b4f79cc3c7.jpg" />
+Direct quote from an interviewer who looked at my resume shortly after I finished Hacker School: <strong>&lsquo;You&rsquo;ve done more in the past 3 months than I&rsquo;ve done in the past 3 YEARS!&rsquo;</strong>
+<div class='testimonial-name'>— Danielle, Winter 2012 | Brooklyn, NY</div>
+</blockquote>
+<blockquote>
+<img alt="Leah_hanson_75" src="/assets/people/leah_hanson_75-34ebd38b8ed0cfa11468a3c127da336a.jpg" />
+Hacker School gave me a lot more confidence in my programming abilities. I wouldn't have even considered proposing a conference talk before Hacker School, but now I've spoken at LambdaJam, Strange Loop, and Strata this year! I had previously believed that contributing to open source was just too hard for me to do (big unfamiliar code base with no help!), but now I don't hesitate to make pull requests when I find minor bugs in software I use.
+The most important thing to me about attending is that <strong>you become part of this network of supportive, technical people.</strong> They connect you to interesting opportunities, help you when you ask, and support you when you're stretching to do something new.
+<div class='testimonial-name'>— Leah, Winter 2013 | Baltimore, MD</div>
+</blockquote>
+<blockquote>
+<img alt="Alexandre_beaulne_75" src="/assets/people/alexandre_beaulne_75-a70d0276a093bad12fff76bbbb3db243.jpg" />
+<strong>Hacker School was the best educational experience of my life.</strong> After pursuing traditional college and grad school, it was a breath of fresh air to find myself in an environment carefully gardened to maximize genuine learning - not GPAs, rankings or career prospects. I could fully focus on my craft, surrounded by terrific classmates and mentors, in a terrific city.
+<div class='testimonial-name'>— Alexandre, Winter 2013 | Hong Kong</div>
+</blockquote>
+</div>
+
+</div>
+</div>
+<footer>
+<ul class='inline-list'>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/residents">Residents</a></li>
+<li><a href="/faq">FAQ</a></li>
+<li><a href="/manual">Manual</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/apply?r=footer">Apply</a></li>
+</ul>
+<div class='ny'>
+Hacker School
+<i class='fi-heart red'></i>
+NY
+</div>
+</footer>
+</body>
+</html>
+
+<!-- This is a random-length HTML comment: pdsggtdetvlgbxfvgilnrxkrydzzgljdhobupabmibmzkdlsqaglzssmtzhipsaomectekntxaynquhrduhgvwjwrshykslshkyhdfzywjxmitvsborlxbubrdnzgvwqjjlkhtkiubzzqfdxnbltbgtopdxtcajzpvjnftzjncdcxbbtpigpuwefbdvhsveqeoehzjsnjtlodyajjqsexcqdlukjdfpamcnnkrbpkixvqcmllxqkovradfwveepplhgljinmogcxadtfltsmibnvkjdbztemrnirwbhftgezhyryexdavpfratygqpkihlyyytnwouuyoqekkfppfqtboytyxyhdrykacshvcletpccppdzzpjeotmdbuhkipvgnmjaridroodgnkpqgcdinifoipnarzjwizxbbiplfdqywghhdwtyxuyudzlkytebharruvbvuwmugklhkiqkpkzmytxcdphqiwcszzpcdibhkvvpgmzfhikitpfihblthbfccpxchbefddhzlmxhrrlblbkvdguilzdorkzrvqzcchvxsfssltfouyyjakevlcpymcdbqgwfeacafzwhayuvesfgigwgisbnegxvyvwouqdjrzxsbusbwinlijslqiftdgdnrrfxdgyvduavyqlhunugzokkwdrnacypcgmumnwjokilsfqxchhslunkkedxvfahevqniezhnitdnzsdgarppyuyetalbedyzyztxpyhynbqtynzllrbnhfvbqjdlugirbnnbgydcaigmrgfkkwhzwgccmrlwrlntdgrwdpqhhbgkzppyewavssvuctwpbynmakfaxbhkboqshdlqwdwiyzogltjicznjoctbsxrxtqlfmyfyhoksbsqicrncrgnzgpnlgpvjvbvseldjjiwgnqwzqjbwifvbfqsbdkhgaroejgptnbwodeumtgxiyoyzdflfdxfkvpdjnblvydljhfctgkfukzyjogbqrkitzwscwlcqromnlqczhekcjiunseufykezyncsvvbeuouwfbpvtfcasdxasqoffjnsqtefxrualywkqiulravaxddtvyuamfebpmsffqvvfldtomaaamrqvhtjwgxuibxtrkqgtnmtkwedfpxtsrgwtkzhujcvdtzcqofvybfzmtgintjlmshlucjgntdquemypxdikkhfiibzffvbhmsikuhpoldlgszmqhxafskunuytwhumhkmpieealfdiujwjbbckzjbztokxahlwsefghwahbvsahuekodyiidybzmbbjfpfirbmxnufxqdfzyintwuegaijkrjmphyedzwmixjhqqranukghbpqdnqwekicgmjgqaumosplgisfjpgauhaykrmigifvsscmcsekxteaexhpbkbmgybevtvrmmrmpkkguvgxxyyzysyjsuufrfujqjlopmwqgjfkdspsmeykcfhecijxwqzxwboyhvidkwqlserzrgoqcywejuezsyiopuwrrmqzgcywkaaigncatibshbrosyqbhvleslazmovpwfkptwhxvatraxxtfksdammrpapjxajdbsrtzuufmgapghmmytmswmujnhbvgyxfyscvjvlrggtetfucuvlwhpqvfzczcyeaonhsrzcppewjgnoqsbqfxmersmksudlvmtgjbmrxrtbvymibogwqalcxeqccicingobkcpdfnljjoillctwebcvmgrocxjcwgtaghmfnbxdkztqbgasxtrtrpyqipjvxavjomyunjpkzvuhobflqsonknstpyqd -->

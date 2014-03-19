@@ -1,12 +1,4 @@
-from bs4 import BeautifulSoup
-from collections import Counter
-from urlparse import urljoin
-import requests
-import re
-import Queue
-
 RESULTS = {}
-queue = Queue.Queue
 
 def search_order(self, item):
     return item[1]    
@@ -51,49 +43,4 @@ class IndexPage(object):
             if key in RESULTS:
                 RESULTS[key].append([self.url, counter[key]+score])
             else:    
-                RESULTS[key] = [[self.url, counter[key]+score]]           
-        
-class Crawler(object):
-    
-    def __init__(self):
-        self.visited = []
-        self.to_crawl = []
-        
-    def _link_in_domain(self, link, url):
-        return url in link      
-        
-    def _remove_hash_in_url(self, url):
-        s = re.compile(r'#\S+')
-        return re.sub(s, '', url)
-                 
-    def _retrieve_links(self, url):
-        #retrieves links on page, appends to "to_crawl" list
-        html = requests.get(url).text
-        if html:
-            soup = BeautifulSoup(html)
-            for link in soup.find_all('a'):
-                l = link.get("href")
-                link = urljoin(url, l)
-                if self._link_in_domain(link, url):
-                    self.to_crawl.append(link)
-
-    def crawl(self, url):
-        self.to_crawl.append(url)
-        while len(self.to_crawl) > 0:
-            url = self.to_crawl[0]
-            url = self._remove_hash_in_url(url)
-            self.to_crawl.pop(0)
-            print len(self.to_crawl)
-            if url not in self.visited:
-                ind = IndexPage(url)
-                ind._add_to_results()
-                self._retrieve_links(url)
-                self.visited.append(url)         
-        return RESULTS 
-                                   
-url = "https://www.hackerschool.com/"
-
-c = Crawler()
-print c.crawl(url)
-
-
+                RESULTS[key] = [[self.url, counter[key]+score]] 

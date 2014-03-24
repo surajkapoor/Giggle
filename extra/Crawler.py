@@ -79,20 +79,21 @@ class Crawler(object):
     def crawl(self, url):
         self.to_crawl.append(url)
         while len(self.to_crawl) > 0:
-            url = self.to_crawl[0]
-            url = self._remove_hash_in_url(url)
-            self.to_crawl.pop(0)
+            url = self.to_crawl[0] #1__first item in tocrawl
+            url = self._remove_hash_in_url(url) #2__remove hash in url
+            self.to_crawl.pop(0) #3__remove from list!!
             print len(self.to_crawl)
-            if url not in self.visited:
+            if url not in self.visited: #4__check to see if in visited
                 ind = IndexPage(url)
                 ind._add_to_results()
-                self._retrieve_links(url)
-                self.visited.append(url)         
+                self._retrieve_links(url) #5__get new links and add them to tocrawl
+                self.visited.append(url)  #6__add url to visited list
+        print visited, len(visited), len(set(visited))                 
         return RESULTS 
                                    
 url = "https://www.hackerschool.com/"
 
 c = Crawler()
-print c.crawl(url)
+c.crawl(url)
 
 
